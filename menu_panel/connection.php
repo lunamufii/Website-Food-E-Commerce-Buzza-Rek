@@ -6,7 +6,7 @@ $password = "";
 $conn = new mysqli($servername, $username, $password);
 
 if ($conn->connect_error)   {
-    die("Koneksi Gagal: " . $conn->connect_error);
+    die("Connection failed: " . $conn->connect_error);
 }
-echo "Koneksi Berhasil"
+echo "Connected successfully"
 ?>
